@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BOOTSTRAP</title>
+    <style>
+        /* small */
+        /* @media (min-width: 576px){
+            body {
+                background-color: aqua
+            }
+        } */
+
+        /* medium */
+        /* @media (min-width: 768px){
+            body {
+                background-color: rgb(9, 33, 170)
+            }
+        } */
+
+        /* large */
+        /* @media (min-width: 992px){
+            body {
+                background-color: rgb(110, 153, 8)
+            }
+        } */
+
+        /* xlarge */
+        /* @media (min-width: 1200px){
+            body {
+                background-color: rgb(0, 0, 0)
+            }
+        } */
+    </style>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+<!-- Typography -->
+<h1>Hello with bootstrap 4</h1>
+<h2>Hello with bootstrap 4</h2>
+<h3>Hello with bootstrap 4</h3>
+<h4>Hello with bootstrap 4</h4>
+<h5>Hello with bootstrap 4</h5>
+<h6 class="h1">Hello with bootstrap 4</h6>
+
+<h1 class="display-1">Display 1</h1>
+<h1 class="display-2">Display 2</h1>
+<h1 class="display-3">Display 3</h1>
+<h1 class="display-4">Display 4</h1>
+<br><hr>
+<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat sequi est, iure eaque tempora vitae corporis sed temporibus, ea aut nihil?</p>
+<p class="lead">
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt facere dolorem impedit ratione, quae eos? Obcaecati tempore delectus quas cupiditate iste.
+</p>
+<br><hr>
+    <p class="text-monospace">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque iusto voluptatibus nihil officiis, amet dignissimos suscipit saepe architecto deleniti atque beatae mollitia accusantium ducimus! Id nihil quis ex cum accusantium?
+    </p>
+<br><hr>
+    <p class="font-weight-bold">
+        Teks Bold
+    </p>
+    <p class="font-weight-normal">
+        Teks Normal
+    </p>
+    <p class="font-weight-italic">
+        Teks Italic
+    </p>
+<br><hr>
+
+<p class="text-uppercase">make to uppercase</p>
+<p class="text-lowercase">MAKE TO LOWERCASE</p>
+<p class="text-capitalize">make to capitalize</p>
+<br><hr>
+
+<blockquote
+    class="blockquote text-right"
+>
+    <p>first always hard, and the rest will be more hard. Don't panic</p>
+</blockquote>
+<br><hr>
+<blockquote
+    class="blockquote"
+>
+    <p>first always hard, and the rest will be more hard. Don't panic</p>
+    <footer class="blockquote-footer">
+        Oldlex 2019 in <cite title="source title">Bobo</cite>
+    </footer>
+</blockquote>
+<br><hr>
+
+<ul class="list-unstyled">
+    <li>List 1</li>
+    <li>List 2</li>
+    <li>List 3</li>
+    <li>List 4</li>
+    <li>List 5</li>
+</ul>
+<br><hr>
+
+<!-- Alignment & Display -->
+<p class="text-justify">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti neque veniam numquam doloribus minus repellendus magni. Esse minima tempora eaque autem?</pc>
+<p class="text-left">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti neque veniam numquam doloribus minus repellendus magni. Esse minima tempora eaque autem?</p>
+<p class="text-right">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti neque veniam numquam doloribus minus repellendus magni. Esse minima tempora eaque autem?</p>
+<p class="text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti neque veniam numquam doloribus minus repellendus magni. Esse minima tempora eaque autem?</p>
+<br><hr>
+<!-- Media Query -->
+<!-- Tentang style apa yang akan diterapkan pada lebar layar tertentu -->
+<!-- 
+    small : sm
+    medium : md
+    lare : lg
+    xtra-large xl
+ -->
+
+ <p class="text-sm-right">Rata kanan pada small atau lebih</p>
+ <p class="text-md-right">Rata kanan pada medium atau lebih</p>
+ <p class="text-lg-right">Rata kanan pada l atau lebih</p>
+ <p class="text-xl-right">Rata kanan pada xl atau lebih</p>
+ <br><hr>
+
+ <p class="text-sm-center">Rata tengah pada small atau lebih</p>
+ <p class="text-md-center">Rata tengah pada medium atau lebih</p>
+ <p class="text-lg-center">Rata tengah pada l atau lebih</p>
+ <p class="text-xl-center">Rata tengah pada xl atau lebih</p>
+
+ <!-- Block level & Inline level element -->
+ <!-- width & height hanya berlaku untuk block level element -->
+ <h1 class="d-inline bg-danger">Tag header</h1>
+ <h1 class="d-inline bg-warning">Tag header 2</h1>
+
+ <span class="d-block bg-primary">Ini tag inline</span>
+ <span class="d-block bg-success">Ini tag inline 2</span>
+ <br><hr>
+
+ <!-- Mewarnai -->
+ <!-- Text -->
+ <h4 class="text-primary">Primary</h4>
+ <h4 class="text-info">Info</h4>
+ <h4 class="text-success">Success</h4>
+ <h4 class="text-secondary">Secondary</h4>
+ <h4 class="text-danger">Danger</h4>
+ <h4 class="text-warning">Warning</h4>
+ <h4 class="text-dark">Dark</h4>
+<br><hr>
+
+<!-- Link -->
+<p>
+    <a href="#" class="text-primary">Link Primary</a>
+</p>
+<p>
+    <a href="#" class="text-info">Link Info</a>
+</p>
+<p>
+    <a href="#" class="text-danger">Link Danger</a>
+</p>
+
+<!-- Background -->
+<div style="background-color: darkgray">
+        <p class="text-white bg-primary">Background Primary</p>
+        <p class="text-white bg-info">Background Info</p>
+        <p class="text-white bg-transparent">Background Transpareitransparent</p>
+        <p class="text-white bg-white">Background White</p>
+</div>
+<br><hr>
+
+<!-- Spacing / Box Model -->
+<h1 class="bg-info">Something</h1>
+<h1 class="bg-info mt-0">Margin Top 0</h1>
+<h1 class="bg-info mt-1">Margin Top 1</h1>
+<h1 class="bg-info mt-2">Margin Top 2</h1>
+<h1 class="bg-info mt-3">Margin Top 3</h1>
+<h1 class="bg-info mt-4">Margin Top 4</h1>
+<h1 class="bg-info mt-5">Margin Top 5</h1>
+
+
+<!-- 
+    PROPERTY
+    margin : m
+    padding : p
+
+    SIDE CODE
+    top : t
+    right : r
+    bottom : b
+    left : l
+
+    rightn and left : x
+    top and bottom : y
+ -->
+ 
+ <p>
+     <span class="text-white bg-info mr-5">Margin right 5</span>
+     <span class="mx-5">Text in the middle</span>
+     <span class="text-white bg-primary">Margin left 5</span>
+ </p>
+
+    <div style="margin-top: 600px;"></div>
+    <button class="btn btn-outline-primary">Get Started</button>    
+    
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
